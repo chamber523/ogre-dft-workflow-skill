@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# VASP outputs (don't commit calculation results)
+OUTCAR
+OSZICAR
+CONTCAR
+WAVECAR
+CHGCAR
+CHG
+DOSCAR
+EIGENVAL
+IBZKPT
+PCDAT
+XDATCAR
+vasprun.xml
+*.out
+*.err
+
+# Templates - keep structure but not actual files
+templates/POTCAR
+templates/INCAR_template
+templates/KPOINTS_template
+templates/job_template.slurm
+
+# Calculation directories
+calculations/
+
+# Output files
+energies_*.csv
+*.npy
+
+# IDE
+.vscode/
+.idea/
