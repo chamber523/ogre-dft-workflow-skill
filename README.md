@@ -46,9 +46,7 @@ This workflow is designed for AI-assisted coding tools like **Claude Code**, **C
 
 2. Drag your calculation folder (`pes` or `zdist`) into the AI coding environment
 
-3. Input your command:
-
-> "Setup calculation folders, update DIPOL, and submit jobs"
+3. ni> "Setup calculation folders, update DIPOL, and submit jobs"
 
 The AI will execute the appropriate scripts automatically.
 
